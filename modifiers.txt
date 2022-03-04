@@ -1,0 +1,7 @@
+->join('tabias', 'approved_hitsuys.zoneworedaCode', '=', DB::raw("CONCAT(tabias.parentcode, tabias.tabiaCode)"))
+->where('tabias.woredaCode', '=', $woreda['woredaCode'])
+->where('tabias.isUrban', '=', 'ከተማ')
+
+->join('tabias', 'hitsuys.hitsuyID', 'LIKE', DB::raw("CONCAT(tabias.parentcode, tabias.tabiaCode, '%')"))
+->where('tabias.woredaCode', '=', $woreda['woredaCode'])
+->where('tabias.isUrban', '=', 'ከተማ')

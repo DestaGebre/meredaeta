@@ -1,0 +1,470 @@
+/* Styles to format and display contents of the website */
+/* Tewdros Sisay   */
+/* 2014.  */
+/* CSS source code for Civil Service Bureau Intranet website */
+
+body
+{
+	background:#F93;
+}
+#wrapper
+{
+	width:990px;
+	margin:1px auto;
+    padding:2px; 
+	background:#eee;
+}
+
+#logo
+{
+	clear:both;
+	width:990px;
+}
+
+#topnav
+{
+	clear:both;
+	width:990px;
+	background-color:#FC0A06;
+	
+}
+
+#topnav ul
+{
+	border-top:1px #333333 solid;
+	border-bottom:1px  #333333 solid;
+	margin:4px;
+	padding:7px;
+}
+
+#topnav ul li
+{
+	padding-left:10px;
+	display:inline;
+	font-size:14px;
+	color:#FF3;
+}
+
+#topnav ul li a
+{
+	padding:0 10px;
+	text-decoration:none;
+}
+
+#topnav a:link
+{
+	font-weight:bold;
+	color:#003;
+}
+
+#topnav a:visited
+{
+	color:#003;
+}
+
+#topnav a:active
+{
+	margin:1px;
+	border-bottom: 2px solid #F90;
+	color:#CCC;
+}
+#topnav a:focus
+{
+	color:#F666;
+}
+
+#topnav a:hover
+{
+	margin:1px;
+	border-bottom: 2px solid #F90; 
+	color: #FFF;
+}
+
+#banner
+{
+	width:990px;
+	margin-bottom:2px;
+	margin-top:1px;
+}
+
+#content, #content-full
+{
+    margin:1px;
+    padding:1px;
+    width:990px;
+	clear:both;
+}
+
+#content p, content-full p
+{
+	Color:#000;
+	text-align:justify;
+	font-size:15px;
+	line-height:170%;
+	text-indent:1.5px;
+	margin:10px 0px; 
+}
+
+
+#content h1, #content-full h1
+{
+	color:#092E5A;
+	font-size:20px;
+	padding-top:5px;
+	padding-bottom:5px;
+	border-bottom: 1px #CCC solid;
+	margin-bottom:12px;
+	
+}
+
+#footer
+{
+	clear:both;
+	margin:5px;
+	border-top:2px #999999 dotted;
+}
+
+#fotter p
+
+{
+	text-align:center;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	font-weight:bold;
+}
+
+h1
+{
+	color:#092E5A;
+	font-size:22px;
+	padding-bottom:10px;
+	border-bottom: 1px #CCC solid;
+	margin-bottom:12px;
+}
+
+h2
+{
+	color:#092E5A;
+	font-size:20px;
+	padding-bottom:15px;
+	border-bottom: 1px #CCC solid;
+	margin-bottom:15px;
+}
+h3
+{
+	color:#092E5A;
+	font-size:16px;
+	padding-bottom:12px;
+	border-top:8px;
+	border-bottom: 1px #CCC solid;
+	margin-bottom:5px;
+}
+p
+{
+	Color: #000;
+	font-size: 16px;
+	line-height: 150%;
+	text-align:justify;
+	margin: 10px 0px;
+	text-indent: 1.5px;	
+}
+
+#valcontainer ul li
+{
+    Color:#000;
+	font-size:16px;
+	line-height:120%;
+	text-align:justify;
+	margin:5px 0px; 
+	text-indent:1.5px;
+}
+
+/*
+.date
+{
+	font-weight:bold;
+	color:#092E5A;
+	margin-bottom:3px;
+} */
+
+.imaging
+{
+	padding:10px;
+	border:1px #CCC solid;
+	margin:10px;
+	float:left;
+	
+}
+
+#mcontainer
+           { 
+		     width:310px; 
+             float:right;
+			 margin:10px;
+			 border-top:10px #186156 solid;
+			 background-color:eee;
+		   }
+		   
+#mcontainer1
+           { 
+		     width:310px; 
+             float:right;
+			 margin:10px;
+			 border-top:10px #186156 solid;
+			 background-color:eee;
+		   }
+
+#vcontainer
+           { 
+		      width:310px;
+		      float:left;
+			  margin:10px;
+			  border-top:10px #036 solid;
+			  background-color:eee;
+		   }
+
+#vcontainer1
+           { 
+		      width:310px;
+		      float:left;
+			  margin:10px;
+			  border-top:10px #036 solid;
+			  background-color:eee;
+		   }
+
+#valcontainer
+             {
+				 width:310px;
+			     float:left;
+				 margin:10px;
+				 border-top:10px #C60 solid;
+			     background-color:eee;
+			 }
+			 
+#valcontainer1
+             {
+				 width:310px;
+			     float:left;
+				 margin:10px;
+				 border-top:10px #C60 solid;
+			     background-color:eee;
+			 }
+			 
+#viscontainer
+             {
+				 width:310px;
+			     float:left;
+				 margin:10px;
+				 border-top:10px #906 solid;
+			     background-color:eee;
+			     /*text-align:center;*/
+			 }
+
+#viscontainer1
+             {
+				 width:310px;
+			     float:left;
+				 margin:10px;
+				 border-top:10px #906 solid;
+			     background-color:eee;
+			     /*text-align:center;*/
+			 }
+			 
+#vcontainer h3, #valcontainer h3, #mcontainer h3, #viscontainer h3,#vcontainer1 h3, #valcontainer1 h3, #mcontainer1 h3, #viscontainer1 h3
+{
+	margin:10px 5px 5px 5px;
+	text-align:center;
+}
+
+#vcontainer p, #valcontainer p, #mcontainer p, #viscontainer p,#vcontainer1 p, #valcontainer1 p, #mcontainer1 p, #viscontainer1 p
+{
+	margin:5px 10px 10px 10px;
+	font-size: 16px;
+	
+}
+
+#rvideos
+           { 
+		     width:990px; 
+           	 margin:5px;
+			 border-top:10px #186156 solid;
+			 background-color:eee;
+			 text-align:center;
+		   }
+		   
+#rvideos11
+           { 
+		     
+			 width:970px;
+			/* clear:both;*/
+	        margin:5px;
+	    border-top:10px #186156 solid;
+  background-color:eee;
+	    text-align:center;
+		
+		   }
+
+#rbooks
+           { 
+		      width:990px;
+		      margin:5px;
+			  border-top:10px #096 solid;
+			 background-color:eee;
+		     text-align:center;
+		   }
+
+#rslides
+             {
+				 width:990px;
+			   	 margin:5px;
+				 border-top:10px #C60 solid;
+			     background-color:eee;
+			     text-align:center;
+			 }
+
+#rvideos h3, #rtexts h3, #rslides h3,#rvideos11 h3
+{
+	margin:5px 5px;
+	font-weight:bold;
+}
+
+#rvideos p, #rtexts p, #rtexts p,#rvideos11 p
+{
+	margin:5px 5px 10px 10px;
+	font-size:12px;
+	
+}
+
+#cpict
+           { 
+		     width:980px; 
+           	 margin:5px;
+			 border-top:10px #186156 solid;
+			 background-color:eee;
+			 text-align:center;
+		   }
+
+#cphrm
+           { 
+		      width:980px;
+		   	  margin:5px;
+			  border-top:10px #036 solid;
+			 background-color:eee;
+		     text-align:center;
+		   }
+
+#cpinspection
+             {
+				 /*width:950px;*/
+				 width:980px;
+			  	 margin:5px;
+				 border-top:10px #C60 solid;
+			     background-color:eee;
+			     text-align:center;
+			 }
+			 
+#cpimp
+             {
+				 width:980px;
+				 margin:5px;
+				 border-top:10px #300 solid;
+			     background-color:eee;
+			     text-align:center;
+			 }
+
+#cpimp h3, #cpinspection h3, #cphrm h3, #cpict h3
+{
+	margin:5px 5px;
+	font-weight:bold;
+}
+
+#cpimp p, #cpinspection p, #cphrm p, #cpict p
+{
+	margin:5px 5px 10px 10px;
+	font-size:12px;
+	
+}
+
+#content-message
+{
+	width:670px;
+	float:left;
+	
+}
+
+#newscontainer
+{
+                
+				float:right;
+				 width:314px;
+			     margin:1px;
+}
+
+#pscroller1 a
+{
+	text-decoration:none;
+	margin:1px;
+	color: #F90;
+    
+}
+
+
+#pscroller1 a:link
+{
+	font-weight:bold;
+	color:#003;
+}
+
+#pscroller1 a:visited
+{
+	color:#003;
+}
+
+#pscroller1 a:active
+{
+	margin:1px;
+	border-bottom: 2px solid #F90;
+	color:#F90;
+}
+#pscroller1 a:focus
+{
+	color:#F666;
+}
+
+#pscroller1 a:hover
+{
+	margin:1px;
+	border-bottom: 2px solid #F90; 
+	color: #F90;
+}
+
+#pscroller1
+{
+width: 300px;
+height: 350px;
+padding: 5px;
+background-color: #eee;
+overflow: hidden;
+border: 1px solid #DDD;
+border-radius: 1px;
+box-shadow: 0px 0px 5px #DDD;
+}
+
+p a
+{
+	text-decoration:none;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size:15px;
+	color:#000;
+}
+
+table a
+{
+	text-decoration:none;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size:15px;
+	color:#000;
+	text-align:center;
+}

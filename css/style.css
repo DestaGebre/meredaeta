@@ -1,0 +1,22 @@
+
+label{
+	font-size:14px;
+}
+.BigText{
+			font-weight:bold;
+			font-stretch:extra-expande;
+			font-style:italic;
+			font-size:32px;
+	}
+.alert-success {
+	background-color:#00a65a;
+	
+}
+.aler-danger{
+	background-color:#D73336;
+}
+.panel-success{
+	
+	background-color:#8dddbd;
+}
+
