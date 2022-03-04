@@ -36,3 +36,4 @@ SweetAlert documentation can be found [Here](https://limonte.github.io/sweetaler
 ## License
 
 The Laravel Admin Starter is licensed under the [MIT license](http://opensource.org/licenses/MIT)
+# meredaeta
